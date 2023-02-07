@@ -13,7 +13,27 @@
     <div class="navbar">Library</div>
     <div class="main">
         <div class="books"></div>
-        <div class="newbook">g</div>
+        <div class="newbook">
+            <form class="frm" action="submit">
+                <div class="x">
+                <label for="bname">Name: </label>
+                <input type="text" name="name" id="bname">
+                </div>
+                <div class="x">
+                <label for="aname">Author: </label>
+                <input type="text" name="aname" id="aname">
+                </div>
+                <div class="x">
+                <label for="pages">Pages: </label>
+                <input type="number" name="pages" id="pages">
+                </div>
+                <div class="x">
+                <label for="status">Status: </label>
+                <input type="text" name="status" id="status">
+                </div>
+                <input class="addbtn" type="button" value="Add Book">
+            </form>
+        </div>
     </div>
     <div class="footer"></div>
 </body>
