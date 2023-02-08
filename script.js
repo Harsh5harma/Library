@@ -42,7 +42,7 @@ let rc = (e)=>{
 let formInputs = [nameform,authform,pageform,statform];
 
 //adds the book and does some ugly fuckery, also adds event listeners on the remove buttons of the new 
-//objects. I'm a stupid fken r word so I don't know how to do this without using inefficient work arounds.
+//objects.I don't know how to do this without using inefficient work arounds.
 //REVISIT THIS SECTION AND REDO IT some time (idk when)
 submitform.addEventListener('click',()=>{
     let arr = []
